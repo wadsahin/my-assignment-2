@@ -22,6 +22,9 @@
 }
 
 /* shared and common styles */
+.hide{
+  display: none;
+}
 body{
   background-color: #000000;
 }
@@ -71,24 +74,58 @@ img{
 header{
   max-width: 80%;
   margin: 0 auto;
+  
 }
 /* nav style */
-
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+  padding: 52px 0px;
+}
+.nav-brand{
+ color: #E6533C;
+ font-style: italic;
+ font-size: 2.25rem;
+ font-weight: 900;
+}
+#nav-colored-btn{
+  background-color: #E6533C;
+  border: none;
+  border-radius: 46px;
+  margin: 3px;
+  padding: 12px 25px;
+}
+.nav-menu-items{
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+.nav-menu-items li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
+  color: white;
+}
+/* bars for mobile nav */
+.nav-line-bars i{
+  font-size: 1.5rem;
+  color: white;
+}
 
 /* hero section style */
 .hero-section{
-  margin: 30px 0px;
   justify-content: space-between;
   align-items: center;
-  /* gap: 85px; */
 }
 .hero-contents-column{
   width: 50%;
 }
 .hero-content-title{
   font-size: 4.87rem;
-  font-weight: 800;
-  line-height: 5.5rem;
+  font-weight: 900;
+  line-height: 6.5rem;
 }
 #spacial-font{
   font-family: "Miama";

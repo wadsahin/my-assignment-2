@@ -3,6 +3,15 @@
   header{
     max-width: 90%;
   }
+  /* nav */
+  .nav-menu-items{
+    display: none;
+  }
+  .nav-line-bars{
+    display: block;
+  }
+
+  /* hero section */
   .hero-section{
     flex-direction: column;
   }
