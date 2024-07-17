@@ -1,0 +1,143 @@
+/* Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* Miama font */
+@font-face {
+  font-family: "Miama";
+  src: url(../fonts/Miama.otf);
+  src: url(../fonts/Miama.ttf);
+}
+
+/* universal style */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* shared and common styles */
+body{
+  background-color: #000000;
+}
+img{
+  width: 100%;
+}
+.btn{
+  padding: 10px 40px;
+  border: none;
+  border-radius: 42px;
+  color: #FFFFFF;
+  font-size: 1.125rem;
+}
+.d-flex{
+  display: flex;
+}
+.primary-color{
+  color: #FFFFFF;
+}
+.secondary-color{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.padding-b-14{
+  padding-bottom: 14px;
+}
+.padding-x-15{
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+.padding-x-20{
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+/* bg and text color */
+.primary-bg-color{
+  background-color: #E6533C;
+}
+.primary-text-color{
+  color: #E6533C;
+}
+
+/* all styles */
+/* header styles */
+header{
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* nav style */
+
+
+/* hero section style */
+.hero-section{
+  margin: 30px 0px;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 85px; */
+}
+.hero-contents-column{
+  width: 50%;
+}
+.hero-content-title{
+  font-size: 4.87rem;
+  font-weight: 800;
+  line-height: 5.5rem;
+}
+#spacial-font{
+  font-family: "Miama";
+  font-size: 5.87rem;
+  font-weight: 500;
+}
+.hero-btn-1{
+  margin-right: 14px;
+}
+.hero-btn-2{
+  border: 1px solid white;
+  background-color: #000000;
+}
+.hero-img-column .badge{
+  padding: 10px 20px;
+  background-color: rgba(48, 48, 48, 0.54);
+  color: white;
+  border-radius: 12px;
+}
+.hero-badge-1{
+  width: 50%;
+  position: relative;
+  top: 220px;
+  left: 220px;
+}
+.hero-badge-1 h1{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.hero-badge-1 span{
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+.hero-badge-2{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  bottom: 160px;
+  right: 110px;
+}
+.hero-badge-2 .badge-circle{
+  width: 40px;
+  height: 40px;
+  background-color: #E6533C;
+  border-radius: 50%;
+}
+.hero-badge-2 .badge-data h3{
+  font-size: 1.5rem;
+}
+
