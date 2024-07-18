@@ -28,6 +28,10 @@
 body{
   background-color: #000000;
 }
+main > section{
+  max-width: 80%;
+  margin: 0 auto;
+}
 img{
   width: 100%;
 }
@@ -41,6 +45,27 @@ img{
 .d-flex{
   display: flex;
 }
+/* section header style start */
+.section-header{
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+ }
+ .section-title{
+   font-size: 3rem;
+   color: white;
+   font-weight: 700;
+ }
+ .section-desc{
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5rem;
+   color: rgba(255, 255, 255, 0.5);
+   margin: 14px 0px;
+ }
+/* section header style end */
+ 
 .primary-color{
   color: #FFFFFF;
 }
@@ -72,8 +97,10 @@ img{
 /* all styles */
 /* header styles */
 header{
-  max-width: 80%;
+  max-width: 100%;
+  padding: 0px 10%;
   margin: 0 auto;
+  background-color: rgba(48, 48, 48, 0.54);
   
 }
 /* nav style */
@@ -176,5 +203,38 @@ header{
 }
 .hero-badge-2 .badge-data h3{
   font-size: 1.5rem;
+}
+/* habits section styles */
+.habits-section{
+
+}
+.habits-card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 50px 0px;
+}
+.habits-card{
+  max-width: 230px;
+  text-align: center;
+}
+.habits-card img{
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  
+}
+.habits-card .hab-card-title{
+  font-size: 1.125rem;
+  font-weight: 600;
+  color:#FFFFFF;
+  margin-bottom: 6px;
+}
+.habits-card .hab-card-desc{
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 

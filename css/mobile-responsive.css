@@ -1,39 +1,60 @@
 @media screen and (max-width: 576px) {
+
   /* header, nav, hero section */
-  header{
-    max-width: 90%;
+  header {
+    max-width: 100%;
+    padding: 0px 5%;
+
   }
   /* nav */
-  .nav-menu-items{
+  .nav-menu-items {
     display: none;
   }
-  .nav-line-bars{
+
+  .nav-line-bars {
     display: block;
   }
 
   /* hero section */
-  .hero-section{
+  .hero-section {
     flex-direction: column;
   }
-  .hero-contents-column{
+
+  .hero-contents-column {
     width: 100%;
   }
-  .hero-content-title{
+
+  .hero-content-title {
     font-size: 3.125rem;
     font-weight: 700;
     line-height: 3.75rem;
   }
-  .btn{
+
+  .btn {
     padding: 10px 25px;
     margin-bottom: 15px;
     font-size: 1rem;
   }
-  .hero-badge-1{
+
+  .hero-badge-1 {
     top: 120px;
     left: 190px;
   }
-  .hero-badge-2{
+
+  .hero-badge-2 {
     bottom: 320px;
     right: 10px;
+  }
+  /* habits section style */
+  .section-header{
+    max-width: 100%;
+  }
+  .section-title{
+    font-size: 2rem;
+  }
+  .habits-card-container{
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
   }
 }
