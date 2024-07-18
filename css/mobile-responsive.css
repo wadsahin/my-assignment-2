@@ -6,6 +6,7 @@
     padding: 0px 5%;
 
   }
+
   /* nav */
   .nav-menu-items {
     display: none;
@@ -37,24 +38,43 @@
   }
 
   .hero-badge-1 {
-    top: 120px;
-    left: 190px;
+    width: 40%;
+    top: 140px;
+    left: 185px;
+    padding: 10px 15px;
   }
-
+  .hero-badge-1 h1{
+    font-size: 2rem;
+    font-weight: 800;
+  }
   .hero-badge-2 {
     bottom: 320px;
     right: 10px;
   }
+
   /* habits section style */
-  .section-header{
+  .section-header {
     max-width: 100%;
   }
-  .section-title{
+
+  .section-title {
     font-size: 2rem;
   }
-  .habits-card-container{
+
+  .habits-card-container {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-items: center;
   }
+  /* Run section style */
+  .run-section{
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    padding-top: 30px;
+  }
+  .run-btn{
+    width: 100%;
+  }
+
 }

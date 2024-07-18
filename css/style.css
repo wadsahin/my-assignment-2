@@ -30,7 +30,7 @@ body{
 }
 main > section{
   max-width: 80%;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 img{
   width: 100%;
@@ -39,7 +39,8 @@ img{
   padding: 10px 40px;
   border: none;
   border-radius: 42px;
-  color: #FFFFFF;
+  background-color: #E6533C;
+  color: white;
   font-size: 1.125rem;
 }
 .d-flex{
@@ -205,9 +206,6 @@ header{
   font-size: 1.5rem;
 }
 /* habits section styles */
-.habits-section{
-
-}
 .habits-card-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -237,4 +235,25 @@ header{
   line-height: 1.125rem;
   color: rgba(255, 255, 255, 0.5);
 }
-
+/* Run section style */
+.run-section{
+  background-color: rgba(255, 255, 255, 0.13);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+  border-radius: 18px;
+}
+.run-contents-column{
+  padding: 0px 40px;
+}
+.run-img-column{
+  padding: 30px 32px;
+}
+.run-img-column img{
+  border-radius: 15px;
+}
+.run-btn{
+  padding: 10px 60px;
+  font-size: 1rem;
+}
