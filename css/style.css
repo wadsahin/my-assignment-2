@@ -1,5 +1,5 @@
 /* Inter font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
 
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -101,6 +101,7 @@ header{
   max-width: 100%;
   padding: 0px 10%;
   margin: 0 auto;
+  /* margin-bottom: 50px; */
   background-color: rgba(48, 48, 48, 0.54);
   
 }
@@ -160,9 +161,13 @@ header{
   font-size: 5.87rem;
   font-weight: 500;
 }
+.hero-img-column{
+  margin-top: -70px;
+  margin-bottom: -82px;
+}
 .hero-btn-1{
   margin-right: 14px;
-}
+} 
 .hero-btn-2{
   border: 1px solid white;
   background-color: #000000;
@@ -206,6 +211,9 @@ header{
   font-size: 1.5rem;
 }
 /* habits section styles */
+.habits-section{
+  padding: 40px 0px;
+}
 .habits-card-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -257,3 +265,144 @@ header{
   padding: 10px 60px;
   font-size: 1rem;
 }
+/* Unique section styles start */
+
+/* Unique section styles end */
+
+  /* BMI Section styles.. */
+  .bmi-section {
+    max-width: 100%;
+  }
+  .bmi-section-header {
+    text-align: left;
+    margin: 70px auto;
+  }
+  .bmi-section-container{
+    max-width: 100%;
+    padding: 50px 0px;
+    background-color: rgba(255, 255, 255, 0.13);
+  }
+  .bmi-column-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .bmi-table-column {
+    width: 50%;
+  }
+  .bmi-table-column table{
+    border-collapse: collapse;
+  }
+  .bmi-table-column tr, th, td {
+    padding: 15px 20px;
+    padding-right: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .bmi-table-column th{
+    color: white;
+    text-align: left;
+  }
+  .bmi-table-column td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+  }
+  .bmi-col-heading {
+    color: white;  
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .bmi-form-column {
+    width: 50%;
+  }
+  .bmi-form{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bmi-form input{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.13);
+    
+  }
+  #activity-factor{
+    grid-column: span 2;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+  .bmi-col-desc{}
+
+/* Team section styles start */
+.team-members-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 20px;
+  border-radius: 15px;
+}
+.team-member-card{
+  margin-bottom: -60px;
+}
+.team-member-card img{
+  border-radius: 18px;
+  height: 260px;
+}
+.team-profile{
+  position: relative;
+  bottom: 90px;
+  left: 20px;
+}
+.team-member-name{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/* Team section styles end */
+
+/* Footer styles .start. */
+  footer{
+    background-color: rgba(255, 255, 255, 0.13);
+  }
+  .footer-section{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .footer-column-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+  }
+  .footer-column .footer-brand{
+    color: #E6533C;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 20px;
+  }
+  .footer-col-title{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .footer-col-items-list li{
+    list-style: none;
+    padding:  8px 0px;
+  }
+  .footer-col-items-list li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .horizontal-line{
+
+  }
+  .copyright{
+    text-align: center;
+    padding: 20px 0px;
+  }
+/* Footer styles .end. */

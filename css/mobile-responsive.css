@@ -1,5 +1,11 @@
 @media screen and (max-width: 576px) {
 
+  /* Universal */
+  main>section {
+    max-width: 90%;
+    /* margin: 40px auto; */
+  }
+
   /* header, nav, hero section */
   header {
     max-width: 100%;
@@ -43,10 +49,12 @@
     left: 185px;
     padding: 10px 15px;
   }
-  .hero-badge-1 h1{
+
+  .hero-badge-1 h1 {
     font-size: 2rem;
     font-weight: 800;
   }
+
   .hero-badge-2 {
     bottom: 320px;
     right: 10px;
@@ -66,15 +74,65 @@
     align-items: center;
     justify-items: center;
   }
+
   /* Run section style */
-  .run-section{
+  .run-section {
     flex-direction: column;
     justify-content: center;
     gap: 0px;
     padding-top: 30px;
   }
-  .run-btn{
+
+  .run-btn {
     width: 100%;
+  }
+
+  /* Unique section styles start */
+
+  /* Unique section styles end */
+
+  /* BMI section styles... */
+  .bmi-section-header {
+    width: 90%;
+  }
+  .bmi-column-row{
+    width: 95%;
+    flex-direction: column; 
+    gap: 40px;
+
+  }
+  .bmi-table-column {
+    width: 100%;
+  }
+  .bmi-form-column{
+    width: 100%;
+  }
+  .bmi-form{
+
+  }
+  
+  /* Team section styles start */
+  .team-section {
+    max-width: 90%;
+  }
+
+  .team-members-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team-profile {
+    bottom: 70px;
+    left: 15px;
+  }
+
+  /* Footer styles ... */
+  .footer-section {
+    max-width: 95%;
+  }
+
+  .footer-column-container {
+    flex-direction: column;
+    gap: 20px;
   }
 
 }

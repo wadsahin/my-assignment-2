@@ -1,3 +1,19 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  
+  /* footer styles */
+  .footer-section{
+    max-width: 90%;
+  }
+  .footer-column-container{
+    display: grid;
+    gap: 20px;
+  }
+  .ft-col-1{
+    grid-column: span 4;
+  }
+  .ft-col-2{
+    grid-column: span 2;
+  }
+  .ft-col-3{
+    grid-column: span 2;
+  }
 }
