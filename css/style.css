@@ -13,7 +13,11 @@
   src: url(../fonts/Miama.otf);
   src: url(../fonts/Miama.ttf);
 }
-
+/* bari sans font */
+@font-face {
+  font-family: "Bari sans";
+  src: url(../fonts/barisans-medium.otf);
+}
 /* universal style */
 *{
   margin: 0px;
@@ -45,6 +49,21 @@ img{
 }
 .d-flex{
   display: flex;
+}
+.margin-b-20{
+  margin-bottom: 20px;
+}
+.margin-b-30{
+  margin-bottom: 30px;
+}
+.margin-b-15{
+  margin-bottom: 15px;
+}
+.color-bright{
+  color: #FF592D;
+}
+.bg-bright{
+  color: #FF592D;
 }
 /* section header style start */
 .section-header{
@@ -265,9 +284,6 @@ header{
   padding: 10px 60px;
   font-size: 1rem;
 }
-/* Unique section styles start */
-
-/* Unique section styles end */
 
   /* BMI Section styles.. */
   .bmi-section {
@@ -362,6 +378,76 @@ header{
 }
 /* Team section styles end */
 
+/* Unique section styles start */
+  .pricing-section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .pricing-card-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding:60px 25px;
+    gap: 20px;
+    border-radius: 5px;
+  }
+  .pricing-card{
+    background-color: white;
+    padding: 40px 30px;
+    padding-bottom: 0px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .pricing-card:hover{
+    transform: scale(1.08);
+    transition-duration: 1s;
+  }
+  .price-card-title{
+    font-size: 1.7rem;
+  }
+  .price-card-desc{
+    font-size: 0.9rem;
+    color: #CBCBCB;
+  }
+  .pricing-card hr{
+    border-top: 1px solid #CBCBCB;
+  }
+  .price-card-service{
+    font-size: 0.9rem;
+    color: #D5D5D5;
+  }
+  .price{
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  .get-started-btn{
+    padding: 18px 30px;
+    border:none;
+    background-color: #FF592D;
+    color: white;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    position: relative;
+    top: 28px;
+  }
+  .personal-service-card{
+    background-color: #FF592D;
+    color: white;
+    margin-top: -35px;
+    margin-bottom: 35px;
+  }
+  .personal-service-card .highlight{
+    color: white;
+  }
+  .personal-service-card .price{
+    color: white;
+  }
+  .personal-card-btn{
+    background-color: white;
+    color: #FF592D;
+  }
+/* Unique section styles end */
+
 /* Footer styles .start. */
   footer{
     background-color: rgba(255, 255, 255, 0.13);
@@ -396,10 +482,6 @@ header{
   .footer-col-items-list li a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
-  }
-
-  .horizontal-line{
-
   }
   .copyright{
     text-align: center;

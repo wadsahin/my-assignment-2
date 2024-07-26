@@ -86,11 +86,6 @@
   .run-btn {
     width: 100%;
   }
-
-  /* Unique section styles start */
-
-  /* Unique section styles end */
-
   /* BMI section styles... */
   .bmi-section-header {
     width: 90%;
@@ -124,7 +119,24 @@
     bottom: 70px;
     left: 15px;
   }
-
+  /* Unique section styles */
+  .pricing-card-container{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    gap: 65px;
+  }
+  .personal-service-card{
+    background-color: #FF592D;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .pricing-card:hover{
+    transform: scale(0.9);
+    transition-duration: 1s;
+  }
   /* Footer styles ... */
   .footer-section {
     max-width: 95%;
