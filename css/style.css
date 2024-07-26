@@ -342,14 +342,12 @@ header{
     border: none;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.13);
-    
   }
   #activity-factor{
     grid-column: span 2;
     padding: 12px;
     margin-bottom: 15px;
   }
-  .bmi-col-desc{}
 
 /* Team section styles start */
 .team-members-container{
@@ -366,6 +364,7 @@ header{
 .team-member-card img{
   border-radius: 18px;
   height: 260px;
+  filter: opacity(0.8);
 }
 .team-profile{
   position: relative;
@@ -373,7 +372,7 @@ header{
   left: 20px;
 }
 .team-member-name{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 /* Team section styles end */

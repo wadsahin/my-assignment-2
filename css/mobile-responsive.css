@@ -80,9 +80,15 @@
     flex-direction: column;
     justify-content: center;
     gap: 0px;
-    padding-top: 30px;
+    padding-top: 20px;
   }
-
+  .run-contents-column{
+    padding: 0px 15px;
+  }
+  .run-img-column{
+    padding: 30px 15px;
+    padding-bottom: 20px;
+  }
   .run-btn {
     width: 100%;
   }
@@ -102,10 +108,15 @@
   .bmi-form-column{
     width: 100%;
   }
-  .bmi-form{
-
+  .bmi-form input{
+    width: 100%;
   }
-  
+  .bmi-form input{
+    padding: 15px 5px;
+  }
+  #activity-factor{
+    padding: 12px 5px;
+  }
   /* Team section styles start */
   .team-section {
     max-width: 90%;
