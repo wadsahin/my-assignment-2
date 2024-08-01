@@ -337,16 +337,22 @@ header{
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
   }
-  .bmi-form input{
+  .bmi-form input,
+  #activity-factor,
+  #gender{
     padding: 15px;
     border: none;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.13);
   }
+  #gender{
+    color: #6C6C6C;
+  }
   #activity-factor{
     grid-column: span 2;
     padding: 12px;
     margin-bottom: 15px;
+    color: #6C6C6C;
   }
 
 /* Team section styles start */
